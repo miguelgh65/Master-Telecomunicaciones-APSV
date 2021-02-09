@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to CRIS!</title>
+</head>
+<body>
+<h2>List of researchers</h2>
+<a href="/CRIS/ResearchersListServlet">List researchers</a>
+<h2>List of publications</h2>
+<a href="/CRIS/PublicationsListServlet">List publications</a>
+
+<h2>Login</h2>
+	<form action="LoginServlet" method="post">
+		<input type="text" name="email" placeholder="Email">
+		<input type="password" name="password" placeholder="Password">
+		<button type="submit">Login</button>
+	</form>
+
+</body>
+</html>
